@@ -72,12 +72,12 @@ var handlers = {
         Authorization: `Bearer ${token}`
       },
       form: {
-        button: null
+        button: "power-off"
       },
       json: true
     })
       .then(() => {
-        this.emit(":tell", "あい");
+        this.emit(":tell", "とめまちた");
       })
       .catch(err => {
         console.error(err);

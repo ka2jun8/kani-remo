@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "zip": "zip -r MyAlexaSkill.zip index.js node_modules package.json"
+  },
   "dependencies": {
     "alexa-sdk": "^1.0.25",
     "request": "^2.87.0",
